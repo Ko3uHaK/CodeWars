@@ -1,7 +1,7 @@
 function absentVowel(x){
     var vowel = 'aeiou';
-    for (var i in vowels) {
-        if (x.toLowerCase().indexOf(vowels[i]) == -1) {
+    for (var i in vowel) {
+        if (x.toLowerCase().indexOf(vowel[i]) == -1) {
           return Number(i);
         }
       }
