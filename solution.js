@@ -46,3 +46,32 @@
       //   return(str);
       //   }
         
+      //Find the odd int
+      
+    //   function findOdd(A) {
+    //     let count = 0;
+    //     let last;
+    
+    //     A.sort();
+    
+    //     for (let i = 0; i < A.length; i++) {
+    //         if (A[i] === last) {
+    //             count++;
+    //             continue;
+    //         } 
+    //         if (count % 2) return last;
+    //         last = A[i];
+    //         count = 1;
+    //     }
+    //     return last;
+    // }
+
+    //Double Char
+    // function doubleChar(str){
+    //   let s1 = "";
+    //   for(let i=0; i<str.length; i++){
+    //     s1 = s1 + (str[i] + str[i]);
+    //   }
+    //   return s1;
+      
+    // }
