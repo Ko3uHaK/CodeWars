@@ -75,3 +75,13 @@
     //   return s1;
       
     // }
+    //Return Two Highest Values in List
+    function twoHighest(arr) {
+      let arr1;
+      for(let i=0;i<=arr.length-1; i++){
+        if ( i >= i- 1) return arr1; {
+          arr1 = arr[i];
+        }
+      }
+    }
+    console.log(twoHighest(1, 1,4));
