@@ -87,7 +87,14 @@
     // console.log(twoHighest(1, 1,4));
 
     //Grasshopper - Variable Assignment Debug
-    // let a = "dev";
-    // let b ="Lab";
-    // let name = a + b;
-    // console.log(name);
+    //  let a = "dev";
+    //  let b ="Lab";
+    //  let name = a + b;
+    //  console.log(name);
+
+    //Grasshopper - Basic Function Fixer
+    // function addFive(num) {
+    //   var total = num + 5;
+    //   return total;
+    // }
+    
