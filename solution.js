@@ -75,7 +75,7 @@
     //   return s1;
       
     // }
-    //Return Two Highest Values in List
+    //!!!!!!!!!!!!!!!Return Two Highest Values in List !!!!!!!!!!!!!!
     // function twoHighest(arr) {
     //   let arr1;
     //   for(let i=0;i<=arr.length-1; i++){
@@ -97,4 +97,11 @@
     //   var total = num + 5;
     //   return total;
     // }
+
+    //Abbreviate a Two Word Name
+    // function abbrevName(name) {
+    //   [first, last] = name.toUpperCase().split(' ');
+    //   return first[0] + '.' + last[0];
+    // }
+    // console.log(abbrevName('Sam Mitchel'));
     
