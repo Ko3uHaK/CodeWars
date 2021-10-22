@@ -106,4 +106,10 @@
     // console.log(abbrevName('Sam Mitchel'));
      
     //The highest profit wins!
-    const minMax = arr => [Math.min(...arr), Math.max(...arr)];
+    // const minMax = arr => [Math.min(...arr), Math.max(...arr)];
+    //String repeat
+    // function repeatStr (n, s) {
+    // let a =s.repeat(n);
+    // return a;
+    // }
+    // console.log(repeatStr(5,"as"));
