@@ -114,8 +114,8 @@
     // }
     // console.log(repeatStr(5,"as"));
     //Convert to Binary
-    function ToBinary(n){
-      let s = n.toString(2);
-      return +s;
-    }
-    console.log(ToBinary(2));
+    // function ToBinary(n){
+    //   let s = n.toString(2);
+    //   return +s;
+    // }
+    // console.log(ToBinary(2));
