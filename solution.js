@@ -119,3 +119,13 @@
     //   return +s;
     // }
     // console.log(ToBinary(2));
+    //Highest and Lowest
+    numbers = [1, 2, 3, 4, 5];
+    function highAndLow(numbers){
+      let a = numbers.split(' ');
+      let sorted = a.sort(function (a, b) {
+        return Number(a) - Number(b);
+      });
+      return sorted[0] + " " + sorted[sorted.length - 1];
+    }
+
