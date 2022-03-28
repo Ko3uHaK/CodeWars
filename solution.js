@@ -129,13 +129,17 @@
     //   return sorted[0] + " " + sorted[sorted.length - 1];
     // }
     //Isograms
-    function isIsogram(str){
-      let up = str.toUpperCase();
-      for (let i = 0; i < str.length; i++) {
-        if (up.indexOf(up[i]) !== up.lastIndexOf(up[i]))
-          return false;
-      }
-      return true;
+    // function isIsogram(str){
+    //   let up = str.toUpperCase();
+    //   for (let i = 0; i < str.length; i++) {
+    //     if (up.indexOf(up[i]) !== up.lastIndexOf(up[i]))
+    //       return false;
+    //   }
+    //   return true;
+    // }
+    //Digits explosion
+    function explode(s) {
+      return s.split('').map(a => a.repeat(a)).join('');
     }
     
 
